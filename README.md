@@ -118,9 +118,10 @@ student-behavior-detection/
 
 ## Training
 To train the YOLOv8 model, use the following command:
-    ```bash
-    python src/student-behavior-detection.py --train
-    ```
+   ```bash
+   python src/student-behavior-detection.py
+   ```
+    
 ### Key Parameters:
   - epochs=100: Number of epochs.
   - batch_size=8: Training batch size.
@@ -132,7 +133,7 @@ To train the YOLOv8 model, use the following command:
 ## Evaluation
 Evaluate the model's performance:
    ```bash
-   python src/student-behavior-detection.py --evaluate
+   python src/student-behavior-detection.py
    ```
 
 ### Outputs:
