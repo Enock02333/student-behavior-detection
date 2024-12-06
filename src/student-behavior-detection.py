@@ -142,7 +142,7 @@ class StudentBehaviorDetector:
 
 def main():
     # Initialize detector
-    detector = StudentBehaviorDetector('C:/Users/enock/Downloads/Project/students-behaviors-detection.v19i.yolov11/data.yaml')
+    detector = StudentBehaviorDetector('path/to/data.yaml')
     
     # Train model
     detector.train_model(epochs=100)
@@ -150,7 +150,7 @@ def main():
     # Evaluate and generate visualizations
     val_results = detector.evaluate_model()
     detector.plot_training_metrics()
-    detector.plot_confusion_matrix('C:/Users/enock/Downloads/Project/students-behaviors-detection.v19i.yolov11/valid/labels')
+    detector.plot_confusion_matrix('path/to/valid/labels')
     detector.plot_class_distribution()
     
     # Export metrics report
