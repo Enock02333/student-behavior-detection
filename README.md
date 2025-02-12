@@ -51,7 +51,7 @@ This project automates the detection of various student behaviors in classrooms 
 ### Source
 
 The dataset is publicly available on Roboflow:  
-[**students-behaviors-detection dataset**](https://roboflow.com/dataset/students-behaviors-detection)
+[**students-behaviors-detection dataset**](https://universe.roboflow.com/harish-t-rimzy/students-behaviors-detection-wkavr-koe3g/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
 
 ### Details
 
