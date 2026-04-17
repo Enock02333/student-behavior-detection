@@ -155,3 +155,6 @@ The processed images will be saved in the results/ directory with bounding boxes
 ## Future Work
   - Expand the dataset to include diverse classroom environments.
   - Integrate real-time video monitoring for live classroom tracking.
+
+
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=Enock02333.student-behavior-detection)
